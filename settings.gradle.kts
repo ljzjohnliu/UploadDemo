@@ -16,6 +16,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        jcenter()
+        maven {
+            url = uri("https://artifact.bytedance.com/repository/Volcengine/") // volc public maven repo
+        }
     }
 }
 

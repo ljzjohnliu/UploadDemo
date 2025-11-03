@@ -19,5 +19,5 @@
             android:layout_marginTop="8dp"
             android:focusable="false"
             android:clickable="false"
-            android:text="@string/splash_okhttp_test" />
+            android:text="@string/splash_upload_test" />
 </LinearLayout>

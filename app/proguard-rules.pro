@@ -19,3 +19,9 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# 上传模块
+-keep class com.pandora.common.applog.**{*;}
+-keep class com.pandora.ttuploader2.** {*;}
+-keep class com.ss.bduploader.** {*;}
+-keep class com.pandora.ttlicense2.**{*;}

@@ -10,15 +10,15 @@
         android:layout_height="400dp"
         android:layout_marginTop="8dp" />
     <Button
-        android:id="@+id/syncTest"
+        android:id="@+id/upload_pic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="@string/okhttp_sync" />
+        android:text="@string/upload_pic" />
     <Button
-        android:id="@+id/asyncTest"
+        android:id="@+id/upload_video"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="@string/okhttp_async" />
+        android:text="@string/upload_video" />
 </LinearLayout>

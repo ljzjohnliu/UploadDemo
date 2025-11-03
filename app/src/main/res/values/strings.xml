@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">StudyNet</string>
+    <string name="app_name">Upload Demo</string>
     <string name="splash_normal_test">日常测试</string>
-    <string name="splash_okhttp_test">Okhttp测试</string>
+    <string name="splash_upload_test">Upload测试</string>
 
-    <string name="okhttp_sync">同步请求</string>
-    <string name="okhttp_async">异步请求</string>
+    <string name="upload_pic">上传图片</string>
+    <string name="upload_video">上传视频</string>
 </resources>

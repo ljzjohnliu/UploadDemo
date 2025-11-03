@@ -1,4 +1,4 @@
-package com.study.netdemo.activity
+package com.study.upload.activity
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -8,8 +8,8 @@ import android.util.Log
 import android.widget.Button
 import androidx.activity.ComponentActivity
 import androidx.core.app.ActivityCompat
-import com.study.netdemo.R
-import com.study.netdemo.utils.ViewUtil
+import com.study.upload.R
+import com.study.upload.utils.ViewUtil
 
 
 @SuppressLint("CustomSplashScreen")
@@ -40,7 +40,7 @@ class SplashActivity : ComponentActivity() {
 
         }
         netBtn!!.setOnClickListener{
-            startActivity(Intent(this, TestOkhttpActivity::class.java))
+            startActivity(Intent(this, TestUploadActivity::class.java))
         }
     }
 

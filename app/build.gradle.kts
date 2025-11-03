@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.study.netdemo"
+    namespace = "com.study.upload"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.study.netdemo"
+        applicationId = "com.study.upload"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -61,4 +61,10 @@ dependencies {
 //    implementation("com.squareup.okhttp3:okhttp:4.12.0")
     api(libs.okhttp)
 //    implementation(project(":studynet"))
+    // 推荐使用最新稳定版，版本信息见「获取 SDK 最新版本」小节
+    implementation("com.bytedanceapi:ttsdk-ttuploader:1.48.1.9")
+    implementation("com.bytedanceapi:ttsdk-ttcommon:1.48.1.9")
+    implementation("com.bytedanceapi:ttsdk-ttlicense2:1.48.1.9")
+// 1.40.2.8 之前的版本还需要添加以下 AppLog 依赖，用于上报日志
+// implementation "com.bytedance.applog:RangersAppLog-Lite-cn:6.10.1"
 }

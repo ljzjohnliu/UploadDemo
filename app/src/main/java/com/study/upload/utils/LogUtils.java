@@ -1,4 +1,4 @@
-package com.study.netdemo.utils;
+package com.study.upload.utils;
 
 import android.os.Environment;
 import android.util.Log;

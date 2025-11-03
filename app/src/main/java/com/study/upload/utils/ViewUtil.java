@@ -1,4 +1,4 @@
-package com.study.netdemo.utils;
+package com.study.upload.utils;
 
 import android.content.Context;
 import android.util.TypedValue;
